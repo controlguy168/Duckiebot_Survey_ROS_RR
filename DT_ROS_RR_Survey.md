@@ -1,7 +1,7 @@
 # Duckiebot ROS and RR Survey
 ## Introduction
-In this survey, we want students to learn and compare robotics middleware: widely used [Robot Operating System](http://wiki.ros.org/) (ROS) and [Robot Raconteur](https://www.robotraconteur.com/) (RR) designed by RPI alumni. Given a duckiebot with [Ubuntu Mate (18.04)](https://ubuntu-mate.org/blog/ubuntu-mate-bionic-final-release/) image, the goal is to use ROS and Robot Raconteur to achieve joystick control with a little image processing.
-On the computer/duckiebot, please follow instructions on [RR website](https://github.com/robotraconteur/robotraconteur/wiki/Download) (Ubuntu Xenial python2 version) and [ROS website](http://wiki.ros.org/melodic/Installation/Ubuntu) (Desktop version) to install both of them.
+In this exercise, we would like students to learn and compare two robotics middleware frameworks: the widely used [Robot Operating System](http://wiki.ros.org/) (ROS) and [Robot Raconteur](https://www.robotraconteur.com/) (RR) (created by John Wason, an alumnus of the RPI Robotics Lab). We will use Duckiebot as the hardware platform.  Given a Duckiebot with [Ubuntu Mate (18.04)](https://ubuntu-mate.org/blog/ubuntu-mate-bionic-final-release/) image, the goal is to use ROS and Robot Raconteur to achieve joystick control plus some rudimentary image processing.
+On the computer/Duckiebot, please follow instructions on [RR website](https://github.com/robotraconteur/robotraconteur/wiki/Download) (Ubuntu Xenial python2 version) and [ROS website](http://wiki.ros.org/melodic/Installation/Ubuntu) (Desktop version) to install both of them.
 ## Duckiebot
 [Duckiebot](https://www.duckietown.org/) is a wheeled robot with 2 motors, one Raspberry Pi, a motor HAT and a Pi Camera. You have the control over 2 motor wheels and read image or video from Pi Cam. To access the duckiebot, use **ssh** command with given *username*, *password* and *IP address*:
 ```
